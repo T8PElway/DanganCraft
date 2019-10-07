@@ -8,7 +8,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
-import com.t8pelway.t8pmod.init.ModItems;
+
 import com.t8pelway.t8pmod.proxy.CommonProxy;
 import com.t8pelway.t8pmod.util.Referance;
 //my notes for this mod:
