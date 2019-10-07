@@ -1,0 +1,7 @@
+
+//Items
+Item.crystal.name=crystal
+
+
+//Blocks
+tile.ore_crystal_block.name=Crystal Ore
