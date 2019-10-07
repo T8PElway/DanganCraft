@@ -1,0 +1,6 @@
+{
+	"variants": {
+		"normal": {"model": "tep:ore_crystal_block" }
+		
+		}
+}

@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "CCC",
+        "C C",
+        "CCC"
+    ],
+   
+    "key":
+    {
+        "C":
+        {
+        	"item": "tep:crystal"
+        },
+        
+    "result":
+    	{
+        	"item": "tep:crystal_block",
+        	"count": 1
+    	}
+    }
+}

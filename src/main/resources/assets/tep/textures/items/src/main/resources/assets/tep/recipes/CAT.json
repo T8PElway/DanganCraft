@@ -1,0 +1,61 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        " C ",
+        "SPS",
+        "PPP"
+    ],
+   
+    "key":
+    {
+        "C":
+        {
+            "item": "tep:crystal"
+        },
+        "P":
+        [
+        	{
+        		"item": "minecraft:planks",
+        		"data": 0
+        	
+        	},
+        	{
+        		"item": "minecraft:planks",
+        		"data": 5
+        	
+        	},
+        	{
+        		"item": "minecraft:planks",
+        		"data": 4
+        	
+        	},
+        	{
+        		"item": "minecraft:planks",
+        		"data": 3
+        	
+        	},
+        	{
+        		"item": "minecraft:planks",
+        		"data": 2
+        	
+        	},
+        	{
+        		"item": "minecraft:planks",
+        		"data": 1
+        	
+        	}
+        ],
+        "S":
+        {
+        	"item": "minecraft:stick"
+    	}
+    },
+   
+    "result":
+    {
+        "item": "tep:crystal_attunement_table",
+        "count": 1
+    }
+}

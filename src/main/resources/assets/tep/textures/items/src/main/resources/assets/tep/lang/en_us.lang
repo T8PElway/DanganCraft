@@ -1,0 +1,9 @@
+
+//Items
+Item.crystal.name=Crystal
+
+
+//Blocks
+tile.ore_crystal_block.name=Crystal Ore
+tile.crystal_attunement_table.name=Crystal Attunement Table(CAT)
+tile.crystal_block.name=Block of Crystal
