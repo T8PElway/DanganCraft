@@ -9,12 +9,16 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 
+import net.minecraftforge.fml.common.registry.GameRegistry;
+
+import com.t8pelway.t8pmod.gen.WorldGen;
 import com.t8pelway.t8pmod.proxy.CommonProxy;
 import com.t8pelway.t8pmod.util.Referance;
-//my notes for this mod:
+/*my notes for this mod:
 //Magic of Time and Space. Enables possible item duplication, but with an extreme cost. RF maybe? 
 //Time Crystal uses possible save from death? Use while dead (figure out how to add to respawn screen)
-//Space Cyrstal uses: Demogorgon from StrangerThings DBD (move in real time far away) possible tech-cost? 
+Space Cyrstal uses: Demogorgon from StrangerThings DBD (move in real time far away) possible tech-cost? 
+*/
 @Mod(modid = Referance.MODID, name = Referance.NAME, version = Referance.VERSION)
 public class Main {
 
@@ -28,12 +32,15 @@ public class Main {
 	@EventHandler
 	public static void PreInit(FMLPreInitializationEvent Event)
 	{
+		GameRegistry.registerWorldGenerator(new WorldGen(), 3 );
 		
-	}@EventHandler
+	}
+	@EventHandler
 	public static void init(FMLInitializationEvent Event)
 	{
 		
-	}@EventHandler
+	}
+	@EventHandler
 	public static void PostInit(FMLPostInitializationEvent Event)
 	{
 		
